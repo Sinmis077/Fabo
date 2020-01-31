@@ -2,28 +2,67 @@
 <html>
 	<head>
 		<title> Fairy Tales of Nature </title>
+		<script src="js/main.js"></script>
 		<link href="css/fabo.css" rel="stylesheet" />
 		<link href="images/favicon.png" rel="icon" />
 		<meta charset="UTF-8" />
 	</head>
 	<body>
+	<div id="Page1" class="MainBackground">
 		<header>
 			<h1>Fairy Tales of Nature</h1>
 		</header>
 		<nav>
 			<a class="myshadow" href="https://gamejolt.com/games/fairytales_of_nature/414663">Download Here</a>
+			<p>
+				<a href="#" onclick="return show('Page1','Page2');">Fairy Tales of Nature</a>
+				<a href="#" onclick="return show('Page2','Page1');">Fairy Tales of Nature 2</a>
+			</p>
 		</nav>
 		<main>
+			<hr>
+				<img src="images/FoN1.jpg" >
+			<hr>
 			<div class="text">
-			<p> Fairy Tales of Nature is a game by Fabo__HD. It's  a console based game in roleplay/rgp style with no graphics
-			and just text, it includes a few routes which you can go thru in order to somewhat finish the game. It has
-			a well developed lore how ever the game is very short , if we could encourge fabo to make a second version
-			of this game it would be great!<br>
+			<p> Fairy Tales of Nature is a game by Fabo__HD. It's  a console based game in roleplay/rpg style
+			consiting of only text, it includes 3 routes which you can go thru in order finish the game. It has
+			a well developed lore and good gameplay, this is the first game for the FToN duology<br>
 			Note from the developer*: <q> Thanks for all the undying support for this game </q></p>
 			</div>
+			<hr>
 		</main>
 		<footer>
 			<h3><b>©</b>Sinmis077, All rights reserved. Game owned by Fabo__HD.</h3>
 		</footer>
+	</div>
+	<div id="Page2" class="MainBackground" style="display:none;">
+		<header>
+			<h1>Fairy Tales of Nature 2</h1>
+		</header>
+		<nav>
+			<a class="myshadow" href="">Download Unavailable</a>
+			<p>
+				<a href="#" onclick="return show('Page1','Page2');">Fairy Tales of Nature</a>
+				<a href="#" onclick="return show('Page2','Page1');">Fairy Tales of Nature 2</a>
+			</p>
+		</nav>
+		<main>
+			<hr>
+				<img src="images/FoN2.jpg" >
+			<hr>
+			<div class="text">
+			<p> 
+				Taking place 5 years after the original game is the sequel of Fairy Tales of Nature.
+				It will most likely take the same route us its predecessor being a console based game
+				and being an roleplay/rpg style game, it might be written in C++ rather than C# like its predecessor
+				we know nothing more at this point in time.
+			</p>
+			</div>
+			<hr>
+		</main>
+		<footer>
+			<h3><b>©</b>Sinmis077, All rights reserved. Game owned by Fabo__HD.</h3>
+		</footer>
+	</div>
 	</body>
 </html>
